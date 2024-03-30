@@ -2,7 +2,6 @@ import random
 
 num = random.randint (1, 100)
 guess = 0
-print ("If you want to quit the game then TYPE: 404 and enter.")
 while guess != num:
     guess = int(input("Guess the number betweem 1 to 100: "))
     if (guess == num):
@@ -15,11 +14,8 @@ while guess != num:
     elif (guess < num):
         print("Try again, think of higher number")
     
-else:
-    while True:
-        if guess == 404:
-            print("You have quit the game. Thank you for playing.")
-            break
+
+
 
    
         
