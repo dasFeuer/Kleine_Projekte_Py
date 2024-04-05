@@ -1,6 +1,6 @@
 import requests
 import xml.etree.ElementTree as ET
-RSS_FEED_URL = "https://www.dw.com/de/themen/s-9077"
+RSS_FEED_URL = "__link__"
 
 def load_site():
     respond = requests.get(RSS_FEED_URL)
