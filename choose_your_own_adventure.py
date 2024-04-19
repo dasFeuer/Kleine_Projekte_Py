@@ -2,7 +2,7 @@ name = input("Type your name: ")
 print(f"Welocme {name} to this adventure!")
 
 answer = input(
-    "You are on a dirt road, it has come to an end and you go left or right. Which way would you like to go?").lower()
+    "You are on a dirt road, it has come to an end and you go left or right. Which way would you like to go?: ").lower()
 if answer == "left":
     answer = input("You come to a river, you can walk around it or swin across? Type walk to walk arould and swim to swim across: ").lower()
     if answer == "swim":
